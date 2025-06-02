@@ -29,13 +29,22 @@ k8-task-5/
 
 ## 🚀 Steps Performed
 
- 1. **Start Minikube**
+
+---
+
+## 🚀 Steps Performed
+
+### 1. Start Minikube
 ```bash
-   minikube start
+minikube start
 
-
+---
+<code>```</code>
+### 2. Create Deployment
 ```bash
 kubectl apply -f deployment.yaml
+
+
 
 
 
