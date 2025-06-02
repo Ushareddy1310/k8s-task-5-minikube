@@ -34,15 +34,62 @@ k8-task-5/
 
 ## 🚀 Steps Performed
 
-### 1. Start Minikube
-```bash
-minikube start
+1. **Start Minikube**
+  
+ <code>minikube start </code>
+  
+2. **Create Deployment**
+   
+ Apply the deployment manifest to create your app deployment:
+ 
+  <code>kubectl apply -f deployment.yaml </code>
 
----
-<code>```</code>
-### 2. Create Deployment
-```bash
-kubectl apply -f deployment.yaml
+
+3. **Expose the App**
+
+Expose your app using a Kubernetes service:
+
+<code> kubectl apply -f service.yaml </code>
+
+4. **Check All Resources**
+
+View all the Kubernetes objects running in your cluster:
+
+<code>kubectl get all </code>
+
+5. **Clean Up Resources**
+
+To delete the deployment and service:
+
+<code>kubectl delete -f deployment.yaml
+kubectl delete -f service.yaml </code> 
+
+
+6. **Project Structure**
+   .
+├── deployment.yaml
+└── service.yaml
+
+
+## 🎉 Conclusion
+
+Congratulations! You’ve successfully deployed your application on Kubernetes using Minikube.  
+This foundational setup opens the door to exploring more advanced Kubernetes features like scaling, rolling updates, and monitoring.  
+Keep experimenting and building your skills — the cloud-native world is yours to conquer!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
