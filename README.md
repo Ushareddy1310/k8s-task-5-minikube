@@ -36,37 +36,37 @@ k8-task-5/
 
 1. **Start Minikube**
   
- <code>minikube start </code>
+   <code>minikube start </code>
   
 2. **Create Deployment**
    
- Apply the deployment manifest to create your app deployment:
+   Apply the deployment manifest to create your app deployment:
  
-  <code>kubectl apply -f deployment.yaml </code>
+    <code>kubectl apply -f deployment.yaml </code>
 
 
 3. **Expose the App**
 
-Expose your app using a Kubernetes service:
+   Expose your app using a Kubernetes service:
 
-<code> kubectl apply -f service.yaml </code>
+   <code> kubectl apply -f service.yaml </code>
 
 4. **Check All Resources**
 
-View all the Kubernetes objects running in your cluster:
+   View all the Kubernetes objects running in your cluster:
 
-<code>kubectl get all </code>
+   <code>kubectl get all </code>
 
 5. **Clean Up Resources**
 
-To delete the deployment and service:
+   To delete the deployment and service:
 
-<code>kubectl delete -f deployment.yaml
-kubectl delete -f service.yaml </code> 
+   <code>kubectl delete -f deployment.yaml
+    kubectl delete -f service.yaml </code> 
 
 
 6. **Project Structure**
-   .
+    
 ├── deployment.yaml
 └── service.yaml
 
