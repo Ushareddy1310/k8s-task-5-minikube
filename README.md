@@ -44,30 +44,30 @@ k8-task-5/
    Apply the deployment manifest to create your app deployment:
  
    ```bash
-     kubectl apply -f deployment.yaml 
+   kubectl apply -f deployment.yaml 
    ```
 
 3. **Expose the App**
 
-   Expose your app using a Kubernetes service:
- ```bash
-   kubectl apply -f service.yaml
- ```
+    Expose your app using a Kubernetes service:
+    ```bash
+    kubectl apply -f service.yaml
+    ```
 
 4. **Check All Resources**
 
    View all the Kubernetes objects running in your cluster:
 
    ```bash
-     kubectl get all 
+   kubectl get all 
    ```
 5. **Clean Up Resources**
 
-   To delete the deployment and service:
-```bash
-   kubectl delete -f deployment.yaml
-   kubectl delete -f service.yaml  
-```
+    To delete the deployment and service:
+    ```bash
+    kubectl delete -f deployment.yaml
+    kubectl delete -f service.yaml  
+     ```
 
 6. **Project Structure**
     
